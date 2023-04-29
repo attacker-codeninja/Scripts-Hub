@@ -59,7 +59,7 @@ phrases = input("\033[1;32m[+] Enter keywords separated by commas:\033[0m \n").s
 phrases = [x.strip() for x in phrases]
 
 print("\033[1;32m🚀 CALCULATING COMBINATIONS....\033[0m")
-time.sleep(5)
+time.sleep(3)
 
 # Print the number of permutations for each combination of phrases.
 for i in range(1, len(phrases) + 1):
